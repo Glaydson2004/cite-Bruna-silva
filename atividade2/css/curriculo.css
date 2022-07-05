@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+#container {
+    font-family:Verdana, Tahoma, sans-serif;
+    margin: 10px auto;
+    width: 100vw;
+}
+
+#container a {
+    text-decoration: none;
+}
+
+header {
+
+    display: flex;
+    height: 5vh;
+    align-items: center;
+}
+
+.nome {
+    display: flex;
+    align-items: center;
+}
+
+.nome a {
+    color: black;
+}
+
+.nome h1 {
+    font-size: 25px;
+}
+
+.nome p {
+    font-size: 15px;
+    margin-left: 5px;
+    color:darkgray;
+}
+
+.nome .boll {
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 50px;
+    margin: 0 15px 0 50px;
+}
+
+nav .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 65vw;
+}
+
+nav .nav-list a {
+    margin: 0 10px;
+    color: black;
+    font-size: 18px;
+}
+
+nav .nav-list a:hover {
+    color:darkgray ;
+}
+
+.text-principal {
+    width: 65vw;
+    margin: 5vw 350px;
+    display: flex;
+}
+
+
+.entrada h1 {
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.entrada h3 {
+    font-size: 23px;
+}
+
+.container-textos {
+    margin: 6vw 0 0 26vw;
+    width: 500px;
+    display: flex;
+}
+
+.container-textos p {
+    color:dimgray;
+}
+
+.container-data {
+    height:min-content ;
+    width: auto;
+}
+
+.dt {
+    display: flex;
+    width: 140px;
+    margin-bottom: 190px;
+}
+
+.dt .data {
+    margin-right: 35px;
+}
+
+.textos .text2 {
+    display: block;
+}
+
+.textos .text2 {
+    margin: 3vw 0;
+}

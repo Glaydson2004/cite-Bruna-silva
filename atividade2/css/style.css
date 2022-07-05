@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+#container {
+    font-family:Verdana, Tahoma, sans-serif;
+    margin: 10px auto;
+    width: 100vw;
+}
+
+#container a {
+    text-decoration: none;
+}
+
+header {
+
+    display: flex;
+    height: 5vh;
+    align-items: center;
+}
+
+.nome {
+    display: flex;
+    align-items: center;
+}
+
+.nome h1 {
+    font-size: 25px;
+}
+
+.nome p {
+    font-size: 15px;
+    margin-left: 5px;
+    color:darkgray;
+}
+
+.nome .boll {
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 50px;
+    margin: 0 15px 0 50px;
+}
+
+nav .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 65vw;
+}
+
+nav .nav-list a {
+    margin: 0 10px;
+    color: black;
+    font-size: 18px;
+}
+
+nav .nav-list a:hover {
+    color:darkgray ;
+}
+
+.bem-vindo {
+
+    display: flex;
+    margin: 150px auto 0;
+    width: 60%;
+    align-items: center;
+}
+
+.bem-vindo img {
+    width: 500px;
+}
+
+
+.texto h1 {
+    font-size: 90px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+}
+
+.texto h2 {
+    font-size: x-medium;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.texto p {
+    color: gray;
+    line-height: 25px;
+    width: 400px;
+    margin-left: 35px;
+}
+
+.texto .buttons {
+    display: flex;
+}
+
+.texto .buttons div {
+    margin: 115px 45px 80px 0;
+}
+
+.texto .buttons a {
+    color: black;
+}
+
+.texto .buttons .botao1 a{
+    background-color: orange;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 72px 40px;
+    border-radius: 200px;
+}
+
+.texto .buttons .botao2 a{
+    background-color: red;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 70px 47px;
+    border-radius: 200px;
+}
+
+.texto .buttons .botao3 a{
+    background-color:turquoise;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 70px 45px;
+    border-radius: 200px;
+}

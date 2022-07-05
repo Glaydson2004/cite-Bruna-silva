@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+#container {
+    font-family:Verdana, Tahoma, sans-serif;
+    margin: 10px auto;
+    width: 100vw;
+}
+
+#container a {
+    text-decoration: none;
+}
+
+header {
+
+    display: flex;
+    height: 5vh;
+    align-items: center;
+}
+
+.nome {
+    display: flex;
+    align-items: center;
+}
+
+.nome a {
+    color: black;
+}
+
+.nome h1 {
+    font-size: 25px;
+}
+
+.nome p {
+    font-size: 15px;
+    margin-left: 5px;
+    color:darkgray;
+}
+
+.nome .boll {
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 50px;
+    margin: 0 15px 0 50px;
+}
+
+nav .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 65vw;
+}
+
+nav .nav-list a {
+    margin: 0 10px;
+    color: black;
+    font-size: 18px;
+}
+
+nav .nav-list a:hover {
+    color:darkgray ;
+}
+
+#contato {
+
+    display: flex;
+    margin: 5vw auto;
+    width: 65vw;
+}
+
+.info .text-principal h1 {
+    width: fit-content;
+    font-size: xx-large;
+    margin-bottom: 15px;
+}
+
+.info .text-principal p {
+    color: grey;
+}
+
+.info .text-principal {
+    margin-bottom: 2vw;
+}
+
+.info .telefone {
+    width: fit-content;
+    margin-bottom: 25px;
+}
+
+.info .email {
+    width: fit-content;
+}
+
+.info h4 {
+    margin-bottom: 7px;
+}
+
+#container-contatos {
+
+    margin: 1vw 0 0 25vw;
+}
+
+#container-contatos .bloco {
+    display: flex;
+}
+
+#container-contatos .digite {
+    width: 10vw;
+    height: 35px;
+    margin:0 25px 20px 0;
+}
+
+#container-contatos h5 {
+    margin-bottom: 10px;
+}
+
+#container-contatos .msg {
+    width: 14vw;
+    height: 8vw;
+}
+
+#container-contatos .button-envia {
+    margin: 30px 0 0 20px ;
+}
+
+#container-contatos .button {
+    width: 130px;
+    height: 130px;
+    border-radius: 120px;
+    background-color: orange;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+}

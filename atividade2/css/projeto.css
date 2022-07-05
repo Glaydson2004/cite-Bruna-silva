@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+#container {
+    font-family:Verdana, Tahoma, sans-serif;
+    margin: 10px auto;
+    width: 100vw;
+}
+
+#container a {
+    text-decoration: none;
+}
+
+header {
+
+    display: flex;
+    height: 5vh;
+    align-items: center;
+}
+
+.nome {
+    display: flex;
+    align-items: center;
+}
+
+.nome a {
+    color: black;
+}
+
+.nome h1 {
+    font-size: 25px;
+}
+
+.nome p {
+    font-size: 15px;
+    margin-left: 5px;
+    color:darkgray;
+}
+
+.nome .boll {
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 50px;
+    margin: 0 15px 0 50px;
+}
+
+nav .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 65vw;
+}
+
+nav .nav-list a {
+    margin: 0 10px;
+    color: black;
+    font-size: 18px;
+}
+
+nav .nav-list a:hover {
+    color:darkgray ;
+}
+
+#projeto {
+    
+    display: flex;
+    margin: 5vw auto;
+    width: 80vw;
+}
+
+.textos {
+    margin:0 350px 0 150px;
+}
+
+.textos .texto-principal {
+    margin-bottom: 80px;
+    font-size: xx-large;
+    width: fit-content;
+}
+
+.textos .texto h3 {
+
+    width:fit-content;
+    margin: 1vw 0;
+}
+
+.textos .texto p {
+
+    width: 24vw;
+    margin-bottom: 20vw;
+    line-height: 25px;
+    color:dimgray;
+}
+
+
+#projeto .imagens {
+    width: min-content;
+    margin-top: 100px;
+}
+
+#projeto .imagens img {
+    margin-bottom: 10vw;
+}
